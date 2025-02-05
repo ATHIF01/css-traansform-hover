@@ -1,0 +1,137 @@
+#w1{
+    background-color: black;
+    
+    
+}
+.row {
+    display: flex;
+    align-items: center;  
+    background-color: rgb(233, 42, 42);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 120px;
+   
+}
+
+h1{
+    margin-left: 60px;
+}
+.header-and-list {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+   
+}
+
+ul.a1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul.a1 li {
+    margin-right: 30px;
+    list-style: none;
+   
+}
+ul.a1 li a {
+    text-decoration: none; 
+    color: #080d13; 
+}
+
+.c1 {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.c2 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    
+    
+}
+
+.image-container {
+    position: relative;
+    flex: 1 1 300px;
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+button {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: black;
+    color: red;
+}
+
+.image-container:hover img {
+    transform: scale(1.2); 
+}
+
+#i1 img:hover{
+    transform: scale(1.1);
+}
+
+#i2 img:hover {
+    transform: rotate(45deg);
+}
+
+#i3  img:hover {
+    transform: skewX(20deg);
+}
+
+#i4  img:hover{
+    transform: scaleX(-1);
+}
+
+#i5  img:hover {
+    transform: perspective(500px) rotateY(45deg);
+}
+
+#i6 img:hover {
+    transform: translateX(30px);
+}
+
+#i7  img:hover {
+    filter: blur(3px);
+}
+
+#i8  img:hover {
+    transform: rotate(360deg);
+}
+footer {
+    margin-top: 5%;
+    padding: 20px;
+    background-color:red;
+    color: black;
+    text-align: center;
+}
