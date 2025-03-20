@@ -3,91 +3,215 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-
+    <title>AniStream - Anime Streaming Platform</title>
+   <link rel="stylesheet" href="./style.css">
 </head>
-<body >
-    <div id="w1">
-        
-    <div class="row">
-        <div class="header-and-list">
-            <h1 >CSS Transform</h1>
-            <ul class="a1">
-                <li><a id="a1" href="#j1">Scale</a></li>
-                <li><a id="a1" href="#j2">Rotate</a></li>
-                <li><a id="a1" href="#j3">Skew</a></li>
-                <li><a id="a1" href="#j4">Flip</a></li>
-                <li><a id="a1" href="#j5">Perspective</a></li>
-                <li><a id="a1" href="#j6">Translate</a></li>
-                <li><a id="a1" href="#j7">blur</a></li>
-                <li><a id="a1" href="#j8">Full Rotate</a></li>
+<body>
+    
+    <nav class="navbar">
+        <div class="logo">
+            <h1>AniStream</h1>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Browse</a></li>
+            <li><a href="#">Manga</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Games</a></li>
+            <li><a href="#">Store</a></li>
+        </ul>
+        <div class="nav-buttons">
+            <button class="search-btn">Search</button>
+            <button class="login-btn">Login</button>
+            <button class="premium-btn">Try Premium</button>
+        </div>
+    </nav>
 
-            </ul>
+   
+    <section class="hero">
+        <img src="./images/back ground2.jpg" alt="Featured Anime" class="hero-img">
+        <div class="hero-content">
+            <h2>Demon Slayer: Kimetsu no Yaiba</h2>
+            <p>A boy raised by boars, who wears a boar's head, boards the Infinity Train on a new mission with the Flame Hashira along with another boy who reveals his true power.</p>
+            <button class="watch-btn">Watch Now</button>
         </div>
-    </div>
-    <div class="c1">
-        <div class="c2">
-            <section id="j1">
-            <div  class="image-container" id="i1">
-                <img height="400px" width="300px" src="./images/one piece1.jpg" alt="">
-                <button class="scale-btn">Scale</button>        
-            </div>
-        </section>
-        <section id="j2">
-            <div class="image-container" id="i2">
-                <img height="400px" width="300px" src="./images/naruto1.jpg" alt="">
-                <button class="rotate-btn">Rotate</button>
-            </div>
-        </section>
-        <section id="j3">
-            <div class="image-container" id="i3">
-                <img height="400px" width="300px" src="./images/AOT.jpg" alt="">
-                <button class="skew-btn">Skew</button>
-            </div>
-        </section>
-        <section id="j4">
-            <div class="image-container" id="i4">
-                <img height="400px" width="300px" src="./images/death note1.jpg" alt="">
-                <button class="flip-btn">Flip</button>
-            </div>
-        </section>
+    </section>
+
+   
+    <section class="categories">
+        <div class="section-title">
+            <h2>Browse Categories</h2>
+            <a href="#" class="see-all">See All</a>
         </div>
-        <div class="c2">
-            <section id="j5">
-            <div class="image-container" id="i5">
-                <img height="400px" width="300px" src="./images/jujustsu 1.jpg" alt="">
-                <button class="perspective-btn">Perspective</button>
-            </div>
-        </section>
-            <section id="j6">
-            <div class="image-container" id="i6">
-                <img height="400px" width="300px" src="./images/arcane1.jpg" alt="">
-                <button class="translate-btn">Translate</button>
-            </div>
-        </section>
-            <section id="j7">
-            <div class="image-container" id="i7">
-                <img height="400px" width="300px" src="./images/vinland 1.jpg" alt="">
-                <button class="blur-btn">Blur</button>
-            </div>
-        </section>
-            <section id="j8">
-            <div class="image-container" id="i8">
-                <img height="400px" width="300px" src="./images/demon1.jpg" alt="">
-                <button class="full-rotate-btn">Full Rotate</button>
-            </div>
-        </section>
+        <div class="category-list">
+            <div class="category-item">Action</div>
+            <div class="category-item">Adventure</div>
+            <div class="category-item">Comedy</div>
+            <div class="category-item">Drama</div>
+            <div class="category-item">Fantasy</div>
+            <div class="category-item">Horror</div>
+            <div class="category-item">Isekai</div>
+            <div class="category-item">Romance</div>
+            <div class="category-item">Sci-Fi</div>
+            <div class="category-item">Slice of Life</div>
+            <div class="category-item">Sports</div>
+            <div class="category-item">Thriller</div>
         </div>
-    </div>
+    </section>
+
+    
+    <section class="anime-section">
+        <div class="section-title">
+            <h2>Popular This Season</h2>
+            <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="anime-grid">
+            <div class="anime-card">
+                <img src="./images/one piece1.jpg" alt="One Piece" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">One Piece</h3>
+                    <p class="anime-episode">Episode 1074</p>
+                </div>
+                <div class="premium-badge">PREMIUM</div>
+            </div>
+            <div class="anime-card">
+                <img src="./images/naruto1.jpg" alt="Naruto" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Naruto: Shippuden</h3>
+                    <p class="anime-episode">Complete Series</p>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="./images/AOT.jpg" alt="Attack on Titan" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Attack on Titan</h3>
+                    <p class="anime-episode">Final Season</p>
+                </div>
+                <div class="premium-badge">PREMIUM</div>
+            </div>
+            <div class="anime-card">
+                <img src="./images/death note2.avif" alt="Death Note" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Death Note</h3>
+                    <p class="anime-episode">Complete Series</p>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="./images/jujustsu 1.jpg" alt="Jujutsu Kaisen" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Jujutsu Kaisen</h3>
+                    <p class="anime-episode">Season 2</p>
+                </div>
+                <div class="premium-badge">PREMIUM</div>
+            </div>
+            <div class="anime-card">
+                <img src="./images/arcane1.jpg" alt="Arcane" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Arcane</h3>
+                    <p class="anime-episode">Season 1</p>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="./images/vinland 1.jpg" alt="Vinland Saga" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Vinland Saga</h3>
+                    <p class="anime-episode">Season 2</p>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="./images/demon1.jpg" alt="Demon Slayer" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Demon Slayer</h3>
+                    <p class="anime-episode">Mugen Train Arc</p>
+                </div>
+                <div class="premium-badge">PREMIUM</div>
+            </div>
+        </div>
+    </section>
+
+   
+    <section class="anime-section">
+        <div class="section-title">
+            <h2>Recently Added</h2>
+            <a href="#" class="see-all">See All</a>
+        </div>
+        <div class="anime-grid">
+            <div class="anime-card">
+                <img src="./images/my hero.jpg" alt="My Hero Academia" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">My Hero Academia</h3>
+                    <p class="anime-episode">Season 6, Ep 24</p>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="./images/chain saw man.jpg" alt="Chainsaw Man" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Chainsaw Man</h3>
+                    <p class="anime-episode">Episode 12</p>
+                </div>
+                <div class="premium-badge">PREMIUM</div>
+            </div>
+            <div class="anime-card">
+                <img src="/images/solo leveling.jpeg" alt="Solo Leveling" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Solo Leveling</h3>
+                    <p class="anime-episode">Season 2, Ep 1</p>
+                </div>
+            </div>
+            <div class="anime-card">
+                <img src="/images/blue lock.jpg" alt="Blue Lock" class="anime-img">
+                <div class="anime-info">
+                    <h3 class="anime-title">Blue Lock</h3>
+                    <p class="anime-episode">Episode 15</p>
+                </div>
+                <div class="premium-badge">PREMIUM</div>
+            </div>
+        </div>
+    </section>
+
+   
     <footer>
-        <p>© 2025 anime. All Rights Reserved.</p>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>Navigation</h3>
+                <ul>
+                    <li><a href="#">Browse</a></li>
+                    <li><a href="#">Manga</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Games</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Account</h3>
+                <ul>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="#">Subscription</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Legal</h3>
+                <ul>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Copyright Policy</a></li>
+                    <li><a href="#">Cookie Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Press</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 AniStream. All Rights Reserved.</p>
+        </div>
     </footer>
-</div>
 </body>
 </html>
